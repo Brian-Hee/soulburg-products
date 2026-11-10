@@ -171,12 +171,17 @@
         }
         .product-img {
             height: 220px;
-            background: var(--light);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--gray);
-            font-size: 18px;
+            background-size: cover;
+            background-position: center;
+        }
+        .product-img.castle {
+            background-image: url('https://aka.doubaocdn.com/s/HFEdZFd95t');
+        }
+        .product-img.ride {
+            background-image: url('https://aka.doubaocdn.com/s/MPUXKERgI6');
+        }
+        .product-img.auto {
+            background-image: url('https://aka.doubaocdn.com/s/t62YuDCiTb');
         }
         .product-info {
             padding: 24px;
@@ -333,9 +338,7 @@
         <h2 class="section-title">Our Product Range</h2>
         <div class="product-grid">
             <div class="product-card">
-                <div class="product-img">
-                    [ Inflatable Castle Image ]
-                </div>
+                <div class="product-img castle"></div>
                 <div class="product-info">
                     <h3>Inflatable Castles & Slides</h3>
                     <p>Commercial-grade inflatable bouncers, water slides, obstacle courses, made from 0.55mm PVC tarpaulin, fire-retardant, customizable size and theme.</p>
@@ -344,9 +347,7 @@
                 </div>
             </div>
             <div class="product-card">
-                <div class="product-img">
-                    [ Amusement Ride Image ]
-                </div>
+                <div class="product-img ride"></div>
                 <div class="product-info">
                     <h3>Outdoor Amusement Rides</h3>
                     <p>Ferris wheels, carousel, swing rides, bumper cars, playground equipment for parks, malls and family entertainment centers.</p>
@@ -355,9 +356,7 @@
                 </div>
             </div>
             <div class="product-card">
-                <div class="product-img">
-                    [ Auto Parts Image ]
-                </div>
+                <div class="product-img auto"></div>
                 <div class="product-info">
                     <h3>Auto Parts & Accessories</h3>
                     <p>Replacement parts for passenger vehicles and commercial trucks, high-quality aftermarket components, OEM available, bulk order discount.</p>
