@@ -22,6 +22,14 @@
             color: var(--dark);
             line-height: 1.6;
         }
+        /* 顶部通知条 */
+        .top-notice {
+            background: #0E42B3;
+            color: white;
+            text-align: center;
+            padding: 8px 16px;
+            font-size: 14px;
+        }
         /* 导航 */
         nav {
             position: sticky;
@@ -82,7 +90,7 @@
             opacity: 1;
         }
         .slide-1 {
-            background: linear-gradient(135deg, #165DFF 0%, #0E42B3 100%);
+            background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('https://aka.doubaocdn.com/s/ZfsIBWG9xe') center/cover no-repeat;
         }
         .slide-2 {
             background: linear-gradient(135deg, #0EA5E9 0%, #0369A1 100%);
@@ -94,12 +102,14 @@
             font-size: 48px;
             line-height: 1.2;
             margin-bottom: 20px;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
         }
         .hero-content p {
             font-size: 20px;
-            opacity: 0.9;
+            opacity: 0.95;
             max-width: 700px;
             margin: 0 auto 32px;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.3);
         }
         .hero-btn {
             display: inline-block;
@@ -274,6 +284,8 @@
     </style>
 </head>
 <body>
+    <!-- 顶部通知条 -->
+    <div class="top-notice">Factory Direct Pricing | Worldwide Shipping to 50+ Countries | Custom Design Available</div>
     <!-- 导航 -->
     <nav>
         <div class="nav-container">
